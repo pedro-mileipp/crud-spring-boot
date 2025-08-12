@@ -1,12 +1,10 @@
 # Projeto CRUD API
 
-![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-orange?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen?style=for-the-badge&logo=spring)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-orange?style=for-the-badge&logo=postgresql)
 ![Maven](https://img.shields.io/badge/Maven-3.8.1-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Build Status](https://img.shields.io/github/workflow/status/crud-spring-boot/CI?style=for-the-badge)
-![Code Coverage](https://img.shields.io/codecov/c/github/crud-spring-boot?style=for-the-badge)
 
 
 # 🚀 Objetivo
