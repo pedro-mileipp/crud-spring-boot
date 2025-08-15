@@ -1,5 +1,6 @@
 package com.pedro.crud.model;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 import jakarta.persistence.Entity;
@@ -16,12 +17,12 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String name;
-    private Long price;
+    private BigDecimal price;
     
     public Product() {
     }
 
-    public Product(UUID id, String name, Long price) {
+    public Product(UUID id, String name, BigDecimal price) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -43,11 +44,11 @@ public class Product {
         this.name = name;
     }
 
-    public Long getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
